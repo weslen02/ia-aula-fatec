@@ -1,0 +1,8 @@
+# Compiled class file
+*.class
+
+# files configurations
+*.settings/*
+*.idea/*
+*.iml
+*out/*
