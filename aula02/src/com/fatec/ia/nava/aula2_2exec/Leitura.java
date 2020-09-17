@@ -7,7 +7,7 @@ import weka.filters.unsupervised.attribute.Remove;
 
 public class Leitura {
     public static void main(String[] args) throws Exception {
-        String path = "<REPLACE>/ia-aula-fatec/aula02/";
+        String path = "/home/weslen/github/ia-aula-fatec/aula02/";
         DataSource arquivo = new DataSource(path + "data/zoo.arff");
         Instances dados = arquivo.getDataSet();
         System.out.println("Instancias lidas: "  + dados.numInstances());
